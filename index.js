@@ -4,7 +4,7 @@ import karirRoutes from './routes/karirRoutes.js';
 
 const init = async () => {
   const server = Hapi.server({
-    port: process.env.PORT || 3001,      // <-- Gunakan PORT dari Railway
+    port: process.env.PORT || 3000,      // <-- Gunakan PORT dari Railway
     host: '0.0.0.0',                      // <-- Agar bisa diakses dari internet
     routes: {
       cors: {
